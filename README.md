@@ -1,5 +1,4 @@
-# thesis_model_unimi
-LaTeX thesis model for University of the Studies of Milan.
+# LaTeX thesis model for University of the Studies of Milan.
 
 ## Usage instructions for OverLeaf
 To use this model on an [OverLeaf project](https://www.overleaf.com/) do the following:
