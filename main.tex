@@ -1,0 +1,26 @@
+\documentclass{oist} 
+\addbibresource{bibtex.bib}
+%\addbibresource{chapters/bibtex.bib}
+
+\begin{document}
+\subfile{\main/chapters/title}
+\subfile{\main/chapters/abstract}
+\subfile{\main/chapters/abbreviations}
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table of Contents}
+
+\subfile{\main/chapters/introduction.tex}
+\subfile{\main/chapters/methods.tex}
+\subfile{\main/chapters/dataset.tex}
+\subfile{\main/chapters/experimental_setup.tex}
+\subfile{\main/chapters/results.tex}
+\subfile{\main/chapters/conclusion.tex} 
+
+\appendix
+
+\subfile{\main/chapters/appendix.tex}
+\printbibliography
+\addcontentsline{toc}{part}{Bibliography}
+
+\end{document}

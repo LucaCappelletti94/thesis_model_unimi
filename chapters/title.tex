@@ -1,0 +1,30 @@
+\providecommand{\main}{..}
+\documentclass[\main/main.tex]{subfiles}
+\begin{document}
+\pagestyle{empty} % No page numbers
+\begin{titlepage}
+	\AddToShipoutPicture*{	\put(-245,-180){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			\includegraphics[width=0.95\paperwidth]{images/symbol.png}%
+			\vfill
+    }}}
+	\begin{center}
+		\vfill
+		{\large \scshape Università degli studi di Milano}\\[0.1cm]
+		{\large \scshape Computer science department}\\[0.5cm]
+		\rule{\textwidth}{1.5pt}\\[0cm]
+		{\huge \bfseries  Your thesis title goes here \par \ }\\[-0.5cm]
+		\rule{\textwidth}{1.5pt}\\[2.5cm]
+		{\hfill \large Author: \textbf{Your name goes here}} \\
+		\vspace{0.1cm}
+		{\hfill \large 902958} \\
+		\vspace{0.5cm}
+		{\hfill \large Supervisor: \textbf{Your supervisor name goes here}} \\
+	    {\hfill \large Co-Supervisor: \textbf{Your co-supervisor name goes here} \\}
+	    \vspace{1cm}
+		\hfill  Month Year
+	\end{center}
+\end{titlepage}
+\end{document}
